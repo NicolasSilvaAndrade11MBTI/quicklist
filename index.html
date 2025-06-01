@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="./main.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,7 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
-    <title>Document</title>
+    <title>Quicklist</title>
 </head>
 <body>
     <header>
@@ -34,7 +35,7 @@
     <main>
         <section class="add-item">
             <input type="text" placeholder="Adicione um novo item" id="item">
-            <button>Adicionar item</button>
+            <button onclick="addItem()">Adicionar item</button>
         </section>
 
         <section class="list">
